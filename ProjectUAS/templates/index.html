@@ -1,0 +1,92 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Color-store</title>
+  <link rel="stylesheet" href="{% static "css/style.css" %}">
+  <style>
+    
+        #contact {
+    background: #dedede;
+    padding: 50px 0px 50px 0;
+    width: 100%;
+}
+
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+    /* footer {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #FFE5B4;
+    z-index: 1;
+    border-bottom: 1px solid blue;
+} */
+  </style>
+</head>
+<body>
+  <nav> 
+    <div class="wrapper">
+      <div class="logo"><a href="">My Best Style</a></div>
+      <div class="menu">
+        <ul>
+          <li><a href="{{home}}">Home</a></li>
+          <li><a href="{{menu}}">Menu</a></li>
+          <!-- <li><a href="Tema">Tema</a></li>
+          <li><a href="About">About</a></li>
+          <li><a href="Contact">Contact</a></li>
+          <li><a href="" class="tbl-biru">Sign Up</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <!-- untuk home-->
+    <section id="home"> 
+      <img src="https://img.freepik.com/free-vector/set-sketches-beautiful-diverse-female-fashion-outfits_1150-52762.jpg?size=626&ext=jpg&ga=GA1.2.1415652735.1656757528"/>
+      <div class="kolom">
+        <p class="Deskripsi">Pilihan store fashion #yourstyleisyou</p>
+        <h2>Choose Your Favorit Style</h2>
+        <p>Tentukan stylemu, karena penampilan merupakan gambaran diri.</p>
+        <p><a href="{{menu}}" class="tbl-pink">You Will Need This</a></p>
+      </div>
+    </section>
+
+    <!--untuk Menu-->
+    <section id="About">
+      <div class="kolom">
+        <p class="Deskripsi">What is This About?</p>
+        <h2>About Us</Menu></h2>
+        <p>Merupakan situs rekomendasi fashion pada online shop. pengguna web ini akan diarahkan langsung pada link menuju pada toko online yang tertera pada barang yang dipilih.</p>
+          <p>Yang pastinya dapat dipercaya dengan harga, kualitas yang dijamin tidak merugikan costumer. Website ini dibuat untuk saling menguntungkan bagi costumer dan penjual, agar tidak terjadi kekecewaan bagi pelanggan</p>
+      </div>
+      <img src="https://img.freepik.com/free-photo/product-package-boxes-shopping-bag-cart-with-laptop-online-shopping-delivery-concept_38716-138.jpg?size=626&ext=jpg&ga=GA1.2.1415652735.1656757528"/>
+    </section>
+
+
+    <div id="copyright">
+      <div class="wrapper">
+        &copy; 2022. <b>Fashion_Recoment-store</b> All Rights Reserved.
+      </div>
+    </div>
+
+</body>
+</html> 
